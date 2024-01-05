@@ -126,3 +126,15 @@
 li {
   list-style: none;
 }
+
+a,
+img,
+data,
+span,
+input,
+button,
+select,
+ion-icon,
+textarea {
+  display: block;
+}
