@@ -110,3 +110,15 @@
   --transition-2: 500ms ease;
   --transition-3: 1000ms ease;
 }
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
