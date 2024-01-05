@@ -147,3 +147,12 @@ a {
 img {
   height: auto;
 }
+
+input,
+button,
+select,
+textarea {
+  background: none;
+  border: none;
+  font: inherit;
+}
