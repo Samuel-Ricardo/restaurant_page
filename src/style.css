@@ -225,3 +225,11 @@ body.nav-active {
   justify-items: center;
   transition: var(--transition-2);
 }
+
+.loading > * {
+  transition: var(--transition-1);
+}
+
+.loading.loaded {
+  opacity: 0;
+}
