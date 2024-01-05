@@ -63,4 +63,8 @@
   --fontSize-body-4: 1.6rem;
   --fontSize-label-1: 1.4rem;
   --fontSize-label-2: 1.2rem;
+
+  /* font-weight */
+  --weight-regular: 400;
+  --weight-bold: 700;
 }
