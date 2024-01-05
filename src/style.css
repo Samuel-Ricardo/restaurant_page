@@ -40,4 +40,12 @@
     hsla(0, 0%, 0%, 0.7),
     transparent
   );
+
+  /**
+   * TYPOGRAPHY
+   */
+
+  /* font-family */
+  --fontFamily-forum: "Forum", cursive;
+  --fontFamily-dm_sans: "DM Sans", sans-serif;
 }
