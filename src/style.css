@@ -82,4 +82,10 @@
   --letterSpacing-3: 0.2em;
   --letterSpacing-4: 0.3em;
   --letterSpacing-5: 3px;
+
+  /**
+   * SPACING
+   */
+
+  --section-space: 70px;
 }
