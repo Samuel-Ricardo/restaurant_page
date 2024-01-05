@@ -230,6 +230,11 @@ body.nav-active {
   transition: var(--transition-1);
 }
 
-.loading.loaded {
+.loading.loaded > * {
   opacity: 0;
+}
+
+.loading.loaded {
+  transition-delay: 250ms;
+  transform: translateY(100%);
 }
