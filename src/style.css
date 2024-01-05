@@ -167,3 +167,7 @@ textarea {
 button {
   cursor: pointer;
 }
+
+address {
+  font-style: normal;
+}
