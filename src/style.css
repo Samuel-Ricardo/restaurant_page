@@ -282,3 +282,20 @@ body.nav-active {
     background-position: 0%;
   }
 }
+
+/*-----------------------------------*\
+  #TOPBAR
+\*-----------------------------------*/
+
+.topbar {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-block: 10px;
+  border-block: 10px;
+  border-block-end: 1px solid var(--white-alpha-20);
+  z-index: 4;
+  transition: var(--transition-1);
+}
