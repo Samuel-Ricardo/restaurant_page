@@ -482,3 +482,12 @@ body.nav-active {
   visibility: visible;
   transform: translateX(360px);
 }
+
+.navbat .close-btn {
+  color: var(--white);
+  border: 1px solid currentColor;
+  padding: 4px;
+  border-radius: var(--radius-circle);
+  margin-inline-start: auto;
+  margin-block: 30px 20px;
+}
