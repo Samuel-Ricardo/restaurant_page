@@ -327,3 +327,15 @@ body.nav-active {
 .topbar-item ion-icon {
   --ionicon-stroke-width: 60px;
 }
+
+.topbar-item .span {
+  font-size: var(--fontSize-label-1);
+}
+
+.topbar .link {
+  transition: var(--transition-1);
+}
+
+.topbar .link:is(:hover, :focus-visible) {
+  color: var(--gold-crayola);
+}
