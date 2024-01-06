@@ -522,3 +522,11 @@ body.nav-active {
   padding-block: 10px;
   max-width: unset;
 }
+
+.navbar-link::after {
+  display: none;
+}
+
+.navbar-link .span {
+  transition: var(--transition-1);
+}
