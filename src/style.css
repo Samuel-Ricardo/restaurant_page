@@ -319,3 +319,11 @@ body.nav-active {
   justify-content: center;
   gap: 30px;
 }
+
+.topbar-item {
+  gap: 6px;
+}
+
+.topbar-item ion-icon {
+  --ionicon-stroke-width: 60px;
+}
