@@ -233,6 +233,11 @@ body.nav-active {
   margin-inline: auto;
 }
 
+.hover-underline {
+  position: relative;
+  max-width: max-content;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
