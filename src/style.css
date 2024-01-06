@@ -483,11 +483,19 @@ body.nav-active {
   transform: translateX(360px);
 }
 
-.navbat .close-btn {
+.navbar .close-btn {
   color: var(--white);
   border: 1px solid currentColor;
   padding: 4px;
   border-radius: var(--radius-circle);
   margin-inline-start: auto;
   margin-block: 30px 20px;
+}
+
+.navbar .close-btn ion-icon {
+  --ionicon-stroke-width: 40px;
+}
+
+.navbar .close-btn:is(:hover, :focus-visible) {
+  color: var(--gold-crayola);
 }
