@@ -453,3 +453,27 @@ body.nav-active {
     transform: scaleX(0.5);
   }
 }
+
+.nav-open-btn .line-2 {
+  animation-delay: 150ms;
+}
+
+.nav-open-btn .line-3 {
+  animation-delay: 300ms;
+}
+
+.navbar {
+  position: fixed;
+  background-color: var(--smoky-black-1);
+  top: 0;
+  left: -360px;
+  bottom: 0;
+  max-width: 360px;
+  width: 100%;
+  padding-inline: 30px;
+  padding-block-end: 50px;
+  overflow-y: auto;
+  visibility: hidden;
+  z-index: 2;
+  transition: var(--transition-2);
+}
