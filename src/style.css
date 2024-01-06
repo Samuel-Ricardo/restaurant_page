@@ -314,3 +314,8 @@ body.nav-active {
   display: flex;
   align-items: center;
 }
+
+.topbar .container {
+  justify-content: center;
+  gap: 30px;
+}
