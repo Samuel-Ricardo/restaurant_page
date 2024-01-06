@@ -477,3 +477,8 @@ body.nav-active {
   z-index: 2;
   transition: var(--transition-2);
 }
+
+.navbar.active {
+  visibility: visible;
+  transform: translateX(360px);
+}
