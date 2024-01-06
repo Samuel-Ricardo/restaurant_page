@@ -303,3 +303,14 @@ body.nav-active {
 .topbar:has(~ .header.active) {
   transform: translateY(-100%);
 }
+
+.topbar-item:not(.link),
+.topbar .separator {
+  display: none;
+}
+
+.topbar .container,
+.topbar-item {
+  display: flex;
+  align-items: center;
+}
