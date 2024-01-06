@@ -391,3 +391,11 @@ body.nav-active {
 .topbar {
   display: none;
 }
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
+.header .btn {
+  display: none;
+}
