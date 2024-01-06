@@ -535,3 +535,12 @@ body.nav-active {
   color: var(--gold-crayola);
   transform: translateX(20px);
 }
+
+.navbar-link .separator {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(45deg);
+  opacity: 0;
+  transition: var(--transition-1);
+}
