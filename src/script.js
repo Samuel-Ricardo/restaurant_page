@@ -29,10 +29,14 @@ const navbar = document.querySelector("[daata-navbar]");
 const navTogglers = document.querySelector("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]]");
 
+/*
+ * NAVBAR
+ */
+
 const toggleNavbar = () => {
   navbar.classList.toggle("active");
   overlay.classList.toggle("active");
   document.body.classList.toggle("nav-active");
 };
 
-addEventOn;
+addEventOnElements(navTogglers, "click", toggleNavbar);
