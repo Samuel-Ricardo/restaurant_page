@@ -251,6 +251,11 @@ body.nav-active {
   transition: var(--transition-2);
 }
 
+.hover-underline:is(:hover, :focus-visible)::after {
+  transform: scaleZ(1);
+  opacity: 1;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
