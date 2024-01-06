@@ -223,6 +223,10 @@ body.nav-active {
   transform: rotate(45deg);
 }
 
+.contact-label {
+  font-weight: var(--weight-bold);
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
