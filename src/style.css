@@ -411,3 +411,9 @@ body.nav-active {
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
 }
+
+.header.active {
+  padding-block: 20px;
+  background-color: var(--eerie-black-4);
+  border-color: var(--black-alpha-15);
+}
