@@ -227,6 +227,12 @@ body.nav-active {
   font-weight: var(--weight-bold);
 }
 
+.contact-number {
+  color: var(--gold-crayola);
+  max-width: max-content;
+  margin-inline: auto;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
