@@ -387,3 +387,7 @@ body.nav-active {
 .topbar .link:is(:hover, :focus-visible) {
   color: var(--gold-crayola);
 }
+
+.topbar {
+  display: none;
+}
