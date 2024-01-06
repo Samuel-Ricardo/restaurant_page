@@ -417,3 +417,8 @@ body.nav-active {
   background-color: var(--eerie-black-4);
   border-color: var(--black-alpha-15);
 }
+
+.header.hide {
+  transform: translateY(-100%);
+  transition-delay: 250ms;
+}
