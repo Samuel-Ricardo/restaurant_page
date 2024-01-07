@@ -102,3 +102,12 @@ const slidePrev = () => {
 };
 
 heroSliderPrevBtn.addEventListener("click", slidePrev);
+
+/**
+ * AUTO SLIDE
+ **/
+
+let autoSlideInterval;
+
+const autoSlide = () =>
+  (autoSlideInterval = setInterval(() => slideNext(), 7000));
