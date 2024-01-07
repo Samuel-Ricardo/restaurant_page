@@ -256,8 +256,18 @@ body.nav-active {
   opacity: 1;
 }
 
+.contact-number::after {
+  bottom: -5px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*-----------------------------------*\
