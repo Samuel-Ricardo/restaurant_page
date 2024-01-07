@@ -270,6 +270,15 @@ body.nav-active {
   object-fit: cover;
 }
 
+.section-subtitle {
+  position: relative;
+  color: var(--gold-crayola);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--letterSpacing-2);
+  text-transform: uppercase;
+  margin-block-end: 12px;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
