@@ -37,3 +37,19 @@ const toggleNavbar = () => {
 };
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
+
+/**
+ * HEADER & BACK TO TOP
+ **/
+
+const header = document.querySelector("[data-header]");
+const backToTopBtn = document.querySelector("[data-back-top-btn]");
+
+let lastScrollPos = 0;
+
+const hideHeader = () => {
+  lastScrollPos < window.scrollY
+    ? header.classList.add("active")
+    : header.classList.remove("active");
+  lastScrollPos = window.scrollY;
+};
