@@ -84,3 +84,10 @@ const updateSliderProps = () => {
   heroSliderItems[currentSlidePos].classList.add("active");
   lastActiveSliderItem = heroSliderItems[currentSlidePos];
 };
+
+const slideNext = () => {
+  currentSlidePos >= heroSliderItems.length - 1
+    ? (currentSlidePos = 0)
+    : currentSlidePos++;
+  updateSliderProps();
+};
