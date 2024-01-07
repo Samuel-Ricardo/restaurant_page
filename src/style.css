@@ -560,3 +560,16 @@ body.nav-active {
 .navbar .body-4 {
   color: var(--quick-silver);
 }
+
+.navbar .text-center .separator {
+  margin-block: 30px;
+  margin-inline: auto;
+}
+
+.navbar .contact-label {
+  margin-block-end: 10px;
+}
+
+.navbar::-webkit-scrollbar-thumb {
+  background-color: var(--white-alpha-10);
+}
