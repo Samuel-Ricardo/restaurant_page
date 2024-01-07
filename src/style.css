@@ -613,3 +613,19 @@ body.nav-active {
   opacity: 1;
   pointer-events: all;
 }
+
+/*-----------------------------------*\
+  #HERO
+\*-----------------------------------*/
+
+.hero .slider-btn {
+  display: none;
+}
+
+.hero {
+  position: relative;
+  padding-block: 120px;
+  min-height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
