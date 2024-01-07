@@ -645,3 +645,8 @@ body.nav-active {
   transtion: var(--transition-3);
   z-index: 1;
 }
+
+.hero .slider-item.active {
+  opacity: 1;
+  visibility: visible;
+}
