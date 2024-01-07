@@ -531,7 +531,16 @@ body.nav-active {
   transition: var(--transition-1);
 }
 
+.navbar-link span {
+  transform: var(--transition-1);
+}
+
 .navbar-link:is(:hover, :focus-visible, .active) .span {
+  color: var(--gold-crayola);
+  transform: translateX(20px);
+}
+
+.navbar-link:is(:hover, :focus-visible, .active) span {
   color: var(--gold-crayola);
   transform: translateX(20px);
 }
@@ -591,6 +600,11 @@ body.nav-active {
   background-color: var(--black-alpha-80);
   opacity: 0;
   pointer-events: none;
-  transtion: var(--transition-2);
+  transition: var(--transition-2);
   z-index: 1;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
 }
