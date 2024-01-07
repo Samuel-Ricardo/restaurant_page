@@ -301,6 +301,20 @@ body.nav-active {
   z-index: 1;
 }
 
+.btn::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  height: 200%;
+  border-radius: var(--radius-circle);
+  background-color: var(--gold-crayola);
+  transition: var(--transition-2);
+  z-index: -1;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
