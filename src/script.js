@@ -66,3 +66,21 @@ const shouldBackToTopActive = () => {
 };
 
 window.addEventListener("scroll", shouldBackToTopActive);
+
+/*
+ * HERO SLIDER
+ */
+
+const heroSlider = document.querySelector("[data-hero-slider]");
+const heroSliderItems = document.querySelectorAll("[data-hero-slider-item]");
+const heroSliderPrevBtn = document.querySelector("[data-prev-btn]");
+const heroSliderNextBtn = document.querySelector("[data-next-btn]");
+
+let currentSlidePos = 0;
+let lastActiveSliderItem = heroSliderItems[0];
+
+const updateSliderProps = () => {
+  lastActiveSliderItem.classList.remove("active");
+  heroSliderItems[currentSlidePos].classList.add("active");
+  lastActiveSliderItem = heroSliderItems[currentSlidePos];
+};
