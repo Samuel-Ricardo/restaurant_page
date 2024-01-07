@@ -581,3 +581,16 @@ body.nav-active {
 .sidebar-link:is(:hover, :focus-visible) {
   color: var(--gold-crayola);
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--black-alpha-80);
+  opacity: 0;
+  pointer-events: none;
+  transtion: var(--transition-2);
+  z-index: 1;
+}
