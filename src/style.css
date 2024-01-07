@@ -685,6 +685,10 @@ body.nav-active {
 }
 
 .hero .btn {
+  margin-inline: auto;
+}
+
+.hero-btn {
   position: absolute;
   bottom: 15px;
   right: 15px;
@@ -694,4 +698,9 @@ body.nav-active {
   z-index: 2;
   background-color: var(--gold-crayola);
   transform: scale(0.6);
+}
+
+.hero-btn img {
+  margin-inline: auto;
+  margin-block-end: 6px;
 }
