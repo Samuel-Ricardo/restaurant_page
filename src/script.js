@@ -53,3 +53,16 @@ const hideHeader = () => {
     : header.classList.remove("active");
   lastScrollPos = window.scrollY;
 };
+
+const shouldBackToTopActive = () => {
+  if (window.scrollY >= 50) {
+    header.classList.add("active");
+    backToTopBtn.classList.add("active");
+    hideHeader();
+  } else {
+    header.classList.remove("active");
+    backToTopBtn.classList.remove("active");
+  }
+};
+
+window.addEventListener("scroll", shouldBackToTopActive);
