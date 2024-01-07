@@ -738,3 +738,11 @@ body.nav-active {
     opacity: 1;
   }
 }
+
+.hero .slider-item.active .section-subtitle {
+  animation-delay: 500ms;
+}
+
+.hero .slider-item.active .hero-title {
+  animation-delay: 100ms;
+}
