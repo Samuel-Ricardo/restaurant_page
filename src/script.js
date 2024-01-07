@@ -111,3 +111,15 @@ let autoSlideInterval;
 
 const autoSlide = () =>
   (autoSlideInterval = setInterval(() => slideNext(), 7000));
+
+addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseover", () =>
+  clearInterval(autoSlideInterval)
+);
+
+addEventOnElements(
+  [heroSliderNextBtn, heroSliderPrevBtn],
+  "mouseout",
+  () => autoSlide
+);
+
+window.addEventListener("load", autoSlide);
