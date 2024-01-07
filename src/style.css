@@ -629,3 +629,19 @@ body.nav-active {
   overflow: hidden;
   z-index: 1;
 }
+
+.hero .slider-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  padding-block-start: 100px;
+  opacity: 0;
+  visibility: hidden;
+  transtion: var(--transition-3);
+  z-index: 1;
+}
