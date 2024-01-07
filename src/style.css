@@ -556,3 +556,7 @@ body.nav-active {
 .navbar-text {
   margin-block: 10px;
 }
+
+.navbar .body-4 {
+  color: var(--quick-silver);
+}
