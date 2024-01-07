@@ -287,6 +287,20 @@ body.nav-active {
   margin-block-start: 5px;
 }
 
+.btn {
+  position: relative;
+  color: var(--gold-crayola);
+  font-size: var(--fontSize-label-2);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--letterSpacing-5);
+  text-transform: uppercase;
+  max-width: max-content;
+  border: 2px solid var(--gold-crayola);
+  padding: 12px 45px;
+  overflow: hidden;
+  z-index: 1;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
