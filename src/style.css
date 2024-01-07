@@ -279,6 +279,14 @@ body.nav-active {
   margin-block-end: 12px;
 }
 
+.section-subtitle::after {
+  content: url("../assets/separator.svg");
+  display: block;
+  width: 100px;
+  margin-inline: auto;
+  margin-block-start: 5px;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
