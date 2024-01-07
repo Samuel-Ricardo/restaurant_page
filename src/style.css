@@ -573,3 +573,11 @@ body.nav-active {
 .navbar::-webkit-scrollbar-thumb {
   background-color: var(--white-alpha-10);
 }
+
+.sidebar-link {
+  transition: var(--transition-1);
+}
+
+.sidebar-link:is(:hover, :focus-visible) {
+  color: var(--gold-crayola);
+}
