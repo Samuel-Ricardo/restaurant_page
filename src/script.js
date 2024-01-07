@@ -91,3 +91,14 @@ const slideNext = () => {
     : currentSlidePos++;
   updateSliderProps();
 };
+
+heroSliderNextBtn.addEventListener("click", slideNext);
+
+const slidePrev = () => {
+  currentSlidePos <= 0
+    ? (currentSlidePos = heroSliderItems.length - 1)
+    : currentSlidePos--;
+  updateSliderProps();
+};
+
+heroSliderPrevBtn.addEventListener("click", slidePrev);
