@@ -433,6 +433,10 @@ has-after::after {
   width: 100%;
 }
 
+.move-anim {
+  animation: move 5s linear infinite;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
