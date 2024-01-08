@@ -354,6 +354,18 @@ body.nav-active {
   color: var(--white);
 }
 
+.has-before,
+has-after {
+  z-index: 1;
+  position: relative;
+}
+
+.has-before::before,
+has-after::after {
+  content: "";
+  position: absolute;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
