@@ -1040,3 +1040,7 @@ has-after::after {
 .service .section-text {
   margin-block-end: 40px;
 }
+
+.service-card {
+  overflow: hidden;
+}
