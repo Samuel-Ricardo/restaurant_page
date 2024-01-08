@@ -465,6 +465,10 @@ has-after::after {
   transition: border-color var(--transition-2);
 }
 
+.input-field::placeholder {
+  color: inherit;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
