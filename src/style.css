@@ -407,6 +407,16 @@ has-after::after {
   overflow: hidden;
   background-color: var(--eerie-black-4);
 }
+
+.btn-text {
+  color: var(--gold-crayola);
+  padding-block-end: 4px;
+  margin-inline: auto;
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-3);
+  font-weight: var(--weight-bold);
+  transition: var(--transtion-1);
+}
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
