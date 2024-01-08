@@ -1011,3 +1011,7 @@ has-after::after {
   transform: translateY(-50%) rotate(45deg);
   transition: var(--transition-1);
 }
+
+.hero .slider-btn ion-icon {
+  transform: rotate(-45deg);
+}
