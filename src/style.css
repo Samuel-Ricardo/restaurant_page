@@ -478,6 +478,13 @@ has-after::after {
   margin-block-end: 20px;
 }
 
+.icon-wrapper .input-field {
+  margin-block-end: 0;
+  padding-inline-start: 40px;
+  appearance: none;
+  cursor: pointer;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
