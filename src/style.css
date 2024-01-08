@@ -1036,3 +1036,7 @@ has-after::after {
 .service .section-title {
   margin-block-end: 16px;
 }
+
+.service .section-text {
+  margin-block-end: 40px;
+}
