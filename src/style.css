@@ -1019,3 +1019,7 @@ has-after::after {
 .hero .slider-btn.prev {
   left: 30px;
 }
+
+.hero .slider-btn.next {
+  right: 30px;
+}
