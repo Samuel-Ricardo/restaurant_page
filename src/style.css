@@ -448,6 +448,12 @@ has-after::after {
   }
 }
 
+.has-bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
