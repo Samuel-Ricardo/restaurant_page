@@ -417,6 +417,11 @@ has-after::after {
   font-weight: var(--weight-bold);
   transition: var(--transtion-1);
 }
+
+.btn-text:is(:hover, :focus-visible) {
+  color: var(--white);
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
