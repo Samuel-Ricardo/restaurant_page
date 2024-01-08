@@ -1083,3 +1083,8 @@ has-after::after {
 .service-card .card-title {
   margin-block-end: 12px;
 }
+
+:is(.service, .about) .section-text {
+  max-width: 420px;
+  margin-inline: auto;
+}
