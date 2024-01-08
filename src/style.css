@@ -422,6 +422,13 @@ has-after::after {
   color: var(--white);
 }
 
+.shape {
+  display: none;
+  position: absolute;
+  max-width: max-content;
+  z-index: -1;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
