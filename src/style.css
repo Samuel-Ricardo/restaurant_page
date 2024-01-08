@@ -397,6 +397,10 @@ has-after::after {
   transform: skewX(-0.08turn) translateX(-180%);
 }
 
+.hover\:shine:is(:hover, :focus-within)::after {
+  transform: skewX(-0.08turn) translateX(275%);
+  transition: var(--transition-3);
+}
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
