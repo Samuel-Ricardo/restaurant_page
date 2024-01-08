@@ -366,6 +366,13 @@ has-after::after {
   position: absolute;
 }
 
+.section {
+  position: relative;
+  padding-block: var(--section-space);
+  overflow: hidden;
+  z-index: 1;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
