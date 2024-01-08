@@ -454,6 +454,17 @@ has-after::after {
   background-position: center;
 }
 
+.input-field {
+  background-color: var(--eerie-black-2);
+  color: var(--white);
+  height: 56px;
+  padding: 10px 20px;
+  border: 1px solid var(--white-alpha-10);
+  margin-block-end: 20px;
+  outline: none;
+  transition: border-color var(--transition-2);
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
