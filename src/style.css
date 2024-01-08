@@ -328,6 +328,19 @@ body.nav-active {
   color: var(--smoky-black-1);
 }
 
+.btn:is(:hover, :focus-visible)::before {
+  bottom: -50%;
+}
+
+.btn:is(:hover, :focus-visible) .text-1 {
+  transform: translateY(-40px);
+}
+
+.btn:is(:hover, :focus-visible) .text-2 {
+  top: 50%;
+  transform: translateY(-50%, -50%);
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
