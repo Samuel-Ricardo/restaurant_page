@@ -350,6 +350,10 @@ body.nav-active {
   background-color: var(--smoky-black-1);
 }
 
+.btn-secondary .text-2 {
+  color: var(--white);
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
