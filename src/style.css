@@ -494,6 +494,14 @@ has-after::after {
   pointer-events: none;
 }
 
+.icon-wrapper ion-icon:frist-child {
+  left: 15px;
+}
+
+.icon-wrapper ion-icon:last-child {
+  right: 10px;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
