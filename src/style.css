@@ -469,6 +469,10 @@ has-after::after {
   color: inherit;
 }
 
+.input-field:focus {
+  border-color: var(--gold-cryalola);
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
