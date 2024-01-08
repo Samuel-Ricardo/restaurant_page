@@ -473,6 +473,11 @@ has-after::after {
   border-color: var(--gold-cryalola);
 }
 
+.icon-wrapper {
+  position: relative;
+  margin-block-end: 20px;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
