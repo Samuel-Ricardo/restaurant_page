@@ -373,6 +373,15 @@ has-after::after {
   z-index: 1;
 }
 
+.bg-black-10 {
+  background-color: var(--smoky-black-2);
+}
+
+.grid-list {
+  display: grid;
+  gap: 40px;
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
