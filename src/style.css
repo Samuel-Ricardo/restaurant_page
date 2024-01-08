@@ -1028,3 +1028,11 @@ has-after::after {
   color: var(--black);
   background-color: var(--gold-crayola);
 }
+
+/*-----------------------------------*\
+  #SERVICE
+\*-----------------------------------*/
+
+.service .section-title {
+  margin-block-end: 16px;
+}
