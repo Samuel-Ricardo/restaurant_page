@@ -382,6 +382,21 @@ has-after::after {
   gap: 40px;
 }
 
+.hover\:shine {
+  position: relative;
+}
+
+.hover\:shine::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(to right, transparent 0%, #fff6 100%);
+  transform: skewX(-0.08turn) translateX(-180%);
+}
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
