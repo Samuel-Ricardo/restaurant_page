@@ -1088,3 +1088,8 @@ has-after::after {
   max-width: 420px;
   margin-inline: auto;
 }
+
+.service .container {
+  max-width: 420px;
+  margin-inline: auto;
+}
