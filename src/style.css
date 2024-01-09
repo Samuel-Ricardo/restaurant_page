@@ -1233,3 +1233,11 @@ has-after::after {
   align-items: flex-start;
   gap: 20px;
 }
+
+.hover\:card .card-banner {
+  background-color: var(--gold-crayola);
+}
+
+.hover\:card .card-banner .img-cover {
+  transition: var(--transition-2);
+}
