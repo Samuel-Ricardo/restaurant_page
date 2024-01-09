@@ -1285,3 +1285,8 @@ has-after::after {
   display: inline-block;
   color: var(--gold-crayola);
 }
+
+.menu .btn {
+  margin-inline: auto;
+  margin-block-start: 26px;
+}
