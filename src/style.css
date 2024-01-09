@@ -1119,3 +1119,8 @@ has-after::after {
 .about .section-text {
   margin-block: 15px 30px;
 }
+
+.about .btn {
+  margin-inline: auto;
+  margin-block-start: 26px;
+}
