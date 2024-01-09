@@ -1215,3 +1215,11 @@ has-after::after {
 .special-dish .btn {
   margin-inline: auto;
 }
+
+/*-----------------------------------*\
+  #MENU
+\*-----------------------------------*/
+
+.menu .section-title {
+  margin-block-end: 40px;
+}
