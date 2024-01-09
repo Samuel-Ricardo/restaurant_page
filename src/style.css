@@ -1111,3 +1111,11 @@ has-after::after {
   width: calc(50% - 20px);
   margin-inline: auto;
 }
+
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+.about .section-text {
+  margin-block: 15px 30px;
+}
