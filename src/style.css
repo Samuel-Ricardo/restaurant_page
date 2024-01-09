@@ -1223,3 +1223,7 @@ has-after::after {
 .menu .section-title {
   margin-block-end: 40px;
 }
+
+.menu .grid-list {
+  margin-block-end: 50px;
+}
