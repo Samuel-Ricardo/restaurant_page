@@ -1290,3 +1290,18 @@ has-after::after {
   margin-inline: auto;
   margin-block-start: 26px;
 }
+
+.menu .shape {
+  display: block;
+  width: 70%;
+}
+
+.menu .shape-2 {
+  top: 0;
+  left: 0;
+}
+
+.menu .shape-3 {
+  bottom: 0;
+  right: 0;
+}
