@@ -1129,3 +1129,8 @@ has-after::after {
   display: grid;
   gap: 120px;
 }
+
+.about-banner {
+  position: relative;
+  margin-block-end: 120px;
+}
