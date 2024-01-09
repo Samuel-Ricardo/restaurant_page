@@ -1280,3 +1280,8 @@ has-after::after {
   color: var(--quick-silver);
   line-height: var(--lineHeight-4);
 }
+
+.menu-text .span {
+  display: inline-block;
+  color: var(--gold-crayola);
+}
