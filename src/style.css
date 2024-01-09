@@ -1227,3 +1227,9 @@ has-after::after {
 .menu .grid-list {
   margin-block-end: 50px;
 }
+
+.menu-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
