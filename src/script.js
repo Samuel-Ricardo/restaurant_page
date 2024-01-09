@@ -123,3 +123,28 @@ addEventOnElements(
 );
 
 window.addEventListener("load", autoSlide);
+
+/***
+ * PARALLAX EFFECT
+ ***/
+
+const parallaxItems = document.querySelectorAll("[data-parallax-item]");
+
+let x, y;
+
+window.addEventListener("mousemove", (event) => {
+  x = (event.clientX / window.innerWidth) * 10 - 5;
+  y = (event.clientY / window.innerHeight) * 10 - 5;
+
+  // reverse positive to negateive || negative to positive
+
+  x = x - x * 2;
+  y = y - y * 2;
+
+  parallaxItems.forEach((item) => {
+    x = x * Number(item.dataset.parallaxSpeed);
+    y = y * Number(item.dataset.parallaxSpeed);
+
+    item.style.transform = `translate3d(${x}px, ${y}px, 0px)`;
+  });
+});
