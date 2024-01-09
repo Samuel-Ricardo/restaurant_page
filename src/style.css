@@ -1251,3 +1251,7 @@ has-after::after {
   flex-shrink: 0;
   border-radius: var(--radius-24);
 }
+
+.menu-card .card-title {
+  transition: var(--transition-1);
+}
