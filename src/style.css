@@ -1134,3 +1134,7 @@ has-after::after {
   position: relative;
   margin-block-end: 120px;
 }
+
+.about-banner > .w-100 {
+  padding-inline-start: 50px;
+}
