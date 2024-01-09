@@ -1241,3 +1241,8 @@ has-after::after {
 .hover\:card .card-banner .img-cover {
   transition: var(--transition-2);
 }
+
+.hover\:card:is(:hover,:focus-within) .card-banner .img-cover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
