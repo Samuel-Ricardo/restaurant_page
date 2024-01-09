@@ -1255,3 +1255,7 @@ has-after::after {
 .menu-card .card-title {
   transition: var(--transition-1);
 }
+
+.menu-card .card-title:is(:hover, :focus-visible) {
+  color: var(--gold-crayola);
+}
