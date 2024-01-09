@@ -1177,3 +1177,16 @@ has-after::after {
   background-size: contain;
   animation: rotate360 15s linear infinite;
 }
+
+/*-----------------------------------*\
+  #SPECIAL DISH
+\*-----------------------------------*/
+
+.special-dish-content {
+  padding-block: 70px;
+}
+
+.special-dish .abs-img {
+  margin-inline: auto;
+  margin-block-end: 12px;
+}
