@@ -1124,3 +1124,8 @@ has-after::after {
   margin-inline: auto;
   margin-block-start: 26px;
 }
+
+.about .container {
+  display: grid;
+  gap: 120px;
+}
