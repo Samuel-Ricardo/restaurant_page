@@ -1190,3 +1190,7 @@ has-after::after {
   margin-inline: auto;
   margin-block-end: 12px;
 }
+
+.special-dish .section-text {
+  margin-block: 16px 40px;
+}
