@@ -1320,3 +1320,10 @@ has-after::after {
   font-family: var(--fontFamily-forum);
   line-height: 0.7rem;
 }
+
+.testi .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-block: 40px 50px;
+}
