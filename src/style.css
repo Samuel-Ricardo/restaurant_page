@@ -1352,3 +1352,7 @@ has-after::after {
 .reservation-form {
   margin-block-start: -270px;
 }
+
+.form-text {
+  margin-block-end: 40px;
+}
