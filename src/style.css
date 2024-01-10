@@ -41,10 +41,6 @@
     transparent
   );
 
-  /**
-   * TYPOGRAPHY
-   */
-
   /* font-family */
   --fontFamily-forum: "Forum", cursive;
   --fontFamily-dm_sans: "DM Sans", sans-serif;
@@ -206,6 +202,23 @@ body.nav-active {
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--gold-crayola);
+}
+
+/*-----------------------------------*\
+  #TYPOGRAPHY
+\*-----------------------------------*/
+
+.display-1,
+.headline-1,
+.headline-2,
+.title-1,
+.title-2,
+.title-3,
+.title-4 {
+  color: var(--white);
+  font-family: var(--fontFamily-forum);
+  font-weight: var(--weight-regular);
+  line-height: var(--lineHeight-2);
 }
 
 /*-----------------------------------*\
@@ -1383,7 +1396,8 @@ has-after::after {
   margin-block-end: 25px;
 }
 
-.form-left .form-right {
+.form-left,
+.form-right {
   padding: 40px 20px 30px;
 }
 
