@@ -1457,6 +1457,10 @@ has-after::after {
   padding: 40px 20px 30px;
 }
 
+.icon-wrapper ion-icon {
+  margin-inline-start: 10px;
+}
+
 .input-field[type="date"] {
   text-transform: uppercase;
   padding-inline-end: 10px;
