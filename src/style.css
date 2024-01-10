@@ -1382,3 +1382,16 @@ has-after::after {
 .form-right .body-4:not(:last-child) {
   margin-block-end: 25px;
 }
+
+.form-left .form-right {
+  padding: 40px 20px 30px;
+}
+
+.input-field[type="date"] {
+  text-transform: uppercase;
+  padding-inline-end: 10px;
+}
+
+.input-field[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
