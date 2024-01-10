@@ -1337,3 +1337,10 @@ has-after::after {
   border-radius: var(--radius-circle);
   margin-block-end: 15px;
 }
+
+.testi .profile-name {
+  color: var(--gold-crayola);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-3);
+}
