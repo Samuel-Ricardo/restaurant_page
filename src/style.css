@@ -1512,3 +1512,7 @@ textarea.input-field {
   margin-inline: auto;
   transition: var(--transition-2);
 }
+
+.feature-card:hover .card-icon {
+  transform: scale(-1) rotate(180deg);
+}
