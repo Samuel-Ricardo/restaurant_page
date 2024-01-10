@@ -1305,3 +1305,12 @@ has-after::after {
   bottom: 0;
   right: 0;
 }
+
+/*-----------------------------------*\
+  #TESTIMONIALS
+\*-----------------------------------*/
+
+.testi {
+  padding-block-end: 340px;
+  position: static;
+}
