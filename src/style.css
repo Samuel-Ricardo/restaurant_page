@@ -1356,3 +1356,8 @@ has-after::after {
 .form-text {
   margin-block-end: 40px;
 }
+
+.form-text .link {
+  display: inline;
+  color: var(--gold-crayola);
+}
