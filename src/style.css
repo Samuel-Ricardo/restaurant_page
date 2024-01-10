@@ -221,6 +221,11 @@ body.nav-active {
   line-height: var(--lineHeight-2);
 }
 
+.display-1 {
+  font-size: var(--fontSize-display-1);
+  line-height: var(--lineHeight-1);
+}
+
 /*-----------------------------------*\
   #SHARED STYLE
 \*-----------------------------------*/
