@@ -1344,3 +1344,11 @@ has-after::after {
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-3);
 }
+
+/*-----------------------------------*\
+  #RESERVATION
+\*-----------------------------------*/
+
+.reservation-form {
+  margin-block-start: -270px;
+}
