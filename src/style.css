@@ -1331,3 +1331,9 @@ has-after::after {
 .testi .separator {
   animation: rotate360 15s linear infinite;
 }
+
+.profile .img {
+  margin-inline: auto;
+  border-radius: var(--radius-circle);
+  margin-block-end: 15px;
+}
