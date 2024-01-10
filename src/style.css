@@ -1327,3 +1327,7 @@ has-after::after {
   gap: 2px;
   margin-block: 40px 50px;
 }
+
+.testi .separator {
+  animation: rotate360 15s linear infinite;
+}
