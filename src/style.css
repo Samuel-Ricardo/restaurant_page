@@ -1314,3 +1314,9 @@ has-after::after {
   padding-block-end: 340px;
   position: static;
 }
+
+.testi .quote {
+  font-size: 7rem;
+  font-family: var(--fontFamily-forum);
+  line-height: 0.7rem;
+}
