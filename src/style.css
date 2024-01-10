@@ -230,6 +230,11 @@ body.nav-active {
   font-size: var(--fontSize-headline-1);
 }
 
+.headline-2 {
+  font-size: var(--fontSize-headline-2);
+  line-height: var(--lineHeight-6);
+}
+
 /*-----------------------------------*\
   #SHARED STYLE
 \*-----------------------------------*/
