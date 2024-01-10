@@ -1361,3 +1361,7 @@ has-after::after {
   display: inline;
   color: var(--gold-crayola);
 }
+
+.form-right .headline-1 {
+  margin-block-end: 40px;
+}
