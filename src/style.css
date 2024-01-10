@@ -1365,3 +1365,20 @@ has-after::after {
 .form-right .headline-1 {
   margin-block-end: 40px;
 }
+
+.form-right .contact-label {
+  margin-block-end: 20px;
+}
+
+.form-right .separator {
+  margin: 20px auto;
+}
+
+.form-right .body-4 {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-3);
+}
+
+.form-right .body-4:not(:last-child) {
+  margin-block-end: 25px;
+}
