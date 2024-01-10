@@ -1407,3 +1407,8 @@ textarea.input-field {
   max-width: 100%;
   width: 100%;
 }
+
+.form-right {
+  background-repeat: repeat;
+  background-position: top left;
+}
