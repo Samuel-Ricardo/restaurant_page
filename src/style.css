@@ -1486,3 +1486,11 @@ textarea.input-field {
   background-repeat: repeat;
   background-position: top left;
 }
+
+/*-----------------------------------*\
+  #FEATURES
+\*-----------------------------------*/
+
+.features .section-title {
+  margin-block-end: 40px;
+}
