@@ -1525,3 +1525,11 @@ textarea.input-field {
   color: var(--quick-silver);
   line-height: var(--lineHeight-6);
 }
+
+/*-----------------------------------*\
+  #EVENT
+\*-----------------------------------*/
+
+.event .section-title {
+  margin-block-end: 40px;
+}
