@@ -1574,3 +1574,8 @@ textarea.input-field {
 .event-card:is(:hover, :focus-within) .img-cover {
   transform: scale(1.05);
 }
+
+.event .btn {
+  margin-inline: auto;
+  margin-block-start: 40px;
+}
