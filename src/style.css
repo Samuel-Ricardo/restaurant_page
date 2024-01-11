@@ -1711,3 +1711,13 @@ textarea.input-field {
   visibility: hidden;
   z-index: 4;
 }
+
+.back-top-btn:is(:hover, :focus-visible) {
+  background-color: var(--white);
+  color: var(--gold-crayola);
+}
+
+.back-top-btn.active {
+  opacity: 1;
+  visibility: visible;
+}
