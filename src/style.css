@@ -1622,3 +1622,8 @@ textarea.input-field {
   color: var(--quick-silver);
   line-height: var(--lineHeight-3);
 }
+
+.footer-brand .contact-link {
+  margin-block: 6px;
+  transition: var(--transition-1);
+}
