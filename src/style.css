@@ -1631,3 +1631,10 @@ textarea.input-field {
 .footer-brand .contact-link:is(:hover, :focus-visible) {
   color: var(--gold-crayola);
 }
+
+.footer-brand .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-block: 40px 25px;
+}
