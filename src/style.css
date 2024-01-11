@@ -1566,3 +1566,11 @@ textarea.input-field {
   letter-spacing: var(--letterSpacing-2);
   margin-block-end: 5px;
 }
+
+.event-card .card-banner .img-cover {
+  transition: var(--transition-2);
+}
+
+.event-card:is(:hover, :focus-within) .img-cover {
+  transform: scale(1.05);
+}
