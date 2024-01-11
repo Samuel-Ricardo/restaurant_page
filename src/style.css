@@ -1655,3 +1655,7 @@ textarea.input-field {
 .footer-brand .icon-wrapper .input-field {
   cursor: text;
 }
+
+.footer-brand .btn {
+  min-width: 100%;
+}
