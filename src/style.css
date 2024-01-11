@@ -1533,3 +1533,8 @@ textarea.input-field {
 .event .section-title {
   margin-block-end: 40px;
 }
+
+.event-card {
+  position: relative;
+  overflow: hidden;
+}
