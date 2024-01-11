@@ -1595,3 +1595,11 @@ textarea.input-field {
   background-position: center top;
   background-repeat: repeat;
 }
+
+.footer-brand::before,
+.footer-brand::after {
+  top: 0;
+  width: 15px;
+  height: 100%;
+  background-image: url("../images/footer-form-pattern.svg");
+}
