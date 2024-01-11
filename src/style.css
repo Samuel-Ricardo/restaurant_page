@@ -1659,3 +1659,8 @@ textarea.input-field {
 .footer-brand .btn {
   min-width: 100%;
 }
+
+.footer-list {
+  display: grid;
+  gap: 20px;
+}
