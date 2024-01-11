@@ -1651,3 +1651,7 @@ textarea.input-field {
   display: inline;
   color: var(--white);
 }
+
+.footer-brand .icon-wrapper .input-field {
+  cursor: text;
+}
