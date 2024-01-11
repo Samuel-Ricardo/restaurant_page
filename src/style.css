@@ -1617,3 +1617,8 @@ textarea.input-field {
   margin-inline: auto;
   margin-block-end: 40px;
 }
+
+.footer-brand :is(.body-4, .label-1) {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-3);
+}
