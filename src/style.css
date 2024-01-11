@@ -1627,3 +1627,7 @@ textarea.input-field {
   margin-block: 6px;
   transition: var(--transition-1);
 }
+
+.footer-brand .contact-link:is(:hover, :focus-visible) {
+  color: var(--gold-crayola);
+}
