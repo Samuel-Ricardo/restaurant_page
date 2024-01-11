@@ -1579,3 +1579,11 @@ textarea.input-field {
   margin-inline: auto;
   margin-block-start: 40px;
 }
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer-top {
+  margin-block-end: 70px;
+}
