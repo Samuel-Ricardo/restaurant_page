@@ -1673,3 +1673,7 @@ textarea.input-field {
   margin-inline: auto;
   transition: var(--transition-1);
 }
+
+.footer-link:is(:hover, :focus-visible) {
+  color: var(--gold-crayola);
+}
